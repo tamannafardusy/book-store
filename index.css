@@ -1,0 +1,39 @@
+.bar{
+    
+}
+.sidebar{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(63, 59, 59);
+    padding : 15px;
+    color: white;
+    letter-spacing: 3px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.bar:hover .navigation{
+    list-style: none;
+    width: 100%;
+    display: block;
+    background-color: rgb(63, 59, 59);
+    color:white;
+    font-size: ;
+    border: 2px solid rgb(255, 254, 254);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.navigation{
+    padding: 15px 0;
+    list-style: none;
+    width: 100%;
+    display: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+.navigation li{
+    padding:7px 12px;
+    margin: 0;
+    list-style-type: none;
+    
+}
